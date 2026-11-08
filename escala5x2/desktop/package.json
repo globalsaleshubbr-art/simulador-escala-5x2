@@ -1,0 +1,13 @@
+{
+  "name": "escala5x2-desktop",
+  "productName": "Escala 5x2",
+  "version": "1.0.0",
+  "description": "Simulador inteligente de escala 5x2 para supermercados",
+  "main": "main.js",
+  "author": "Escala 5x2",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "33.4.11",
+    "@electron/packager": "20.3.0"
+  }
+}

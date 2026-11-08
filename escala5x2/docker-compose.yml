@@ -1,0 +1,20 @@
+services:
+  solver:
+    build: ./solver
+    volumes:
+      - escala-data:/data
+    ports:
+      - "8000:8000"
+  web:
+    build:
+      context: ./web
+      args:
+        ESCALA_API_URL: http://solver:8000
+    environment:
+      ESCALA_API_URL: http://solver:8000
+    depends_on:
+      - solver
+    ports:
+      - "3000:3000"
+volumes:
+  escala-data:

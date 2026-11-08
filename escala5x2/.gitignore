@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+*.db
+__pycache__/
+.pytest_cache/
+*.tsbuildinfo
+desktop/node_modules/
+desktop/out/
+desktop/app/

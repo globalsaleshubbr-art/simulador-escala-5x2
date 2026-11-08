@@ -1,0 +1,23 @@
+ESCALA 5X2 SIMPLES
+
+Como abrir
+  Dê dois cliques em "Escala 5x2 Simples.exe".
+  Não precisa instalar nada nem estar conectado à internet.
+
+Na primeira vez, o Windows pode mostrar "O Windows protegeu o computador"
+(acontece com programas novos, sem assinatura digital). Clique em
+"Mais informações" e depois em "Executar assim mesmo".
+
+Mantenha todos os arquivos desta pasta juntos. Para criar um atalho,
+clique com o botão direito em "Escala 5x2 Simples.exe" > Mostrar mais opções >
+Enviar para > Área de trabalho (criar atalho).
+
+Onde ficam os dados
+  Documentos\Escala 5x2\dados.json
+  A cada gravação é feita uma cópia de segurança (dados.backup.json).
+  No menu Arquivo: abrir a pasta dos dados, salvar uma cópia e restaurar.
+
+Exportações em Excel e PDF abrem a janela "Salvar como".
+
+As versões Simples e Completa usam o mesmo arquivo de dados.
+Abra uma de cada vez para não sobrescrever as mudanças da outra.

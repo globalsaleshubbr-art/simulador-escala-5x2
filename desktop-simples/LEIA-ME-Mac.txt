@@ -1,0 +1,48 @@
+ESCALA 5x2 SIMPLES — VERSÃO PARA MAC
+====================================
+
+QUAL ARQUIVO USAR
+- Mac com chip Apple (M1, M2, M3, M4...): Escala5x2-Simples-Mac-AppleSilicon.zip
+- Mac com processador Intel:              Escala5x2-Simples-Mac-Intel.zip
+Para saber: menu Apple () > Sobre Este Mac. Aparece "Chip Apple M..." ou "Processador Intel".
+Precisa do macOS 11 (Big Sur) ou mais novo.
+
+INSTALAR
+1. Dê dois cliques no arquivo .zip. Aparece o programa "Escala 5x2 Simples".
+2. Arraste o "Escala 5x2 Simples" para a pasta Aplicativos (Applications).
+3. Abra o programa pela pasta Aplicativos ou pelo Launchpad.
+
+NA PRIMEIRA VEZ (o Mac avisa que o programa não é da App Store)
+O programa não tem a assinatura paga da Apple, então o Mac pede uma confirmação só na primeira vez:
+
+  macOS 15 (Sequoia) ou mais novo:
+  1. Abra o programa. Quando aparecer o aviso, clique em "Concluído" (ou "OK").
+  2. Abra Ajustes do Sistema > Privacidade e Segurança.
+  3. Role até o fim: aparece "Escala 5x2 Simples foi bloqueado". Clique em "Abrir Mesmo Assim"
+     e digite a senha do Mac.
+  4. Abra o programa de novo e clique em "Abrir Mesmo Assim".
+
+  macOS 14 ou mais antigo:
+  1. Na pasta Aplicativos, clique no programa com o botão direito (ou Control + clique) > Abrir.
+  2. No aviso, clique em "Abrir".
+
+Se aparecer "o programa está danificado e não pode ser aberto":
+  Abra o Terminal (Aplicativos > Utilitários > Terminal), cole a linha abaixo e aperte Enter:
+      xattr -cr "/Applications/Escala 5x2 Simples.app"
+  Depois abra o programa normalmente.
+
+ONDE FICAM OS DADOS
+- Documentos > Escala 5x2 > dados.json (com cópia de segurança automática, dados.backup.json).
+- Na primeira gravação o Mac pode perguntar se o programa pode acessar a pasta Documentos:
+  clique em "Permitir". Se não permitir, os dados ficam guardados na pasta do programa
+  (o caminho aparece no menu Ajuda > Sobre o Escala 5x2).
+- Menu Arquivo > Abrir pasta dos dados mostra a pasta.
+
+LEVAR OS DADOS DO WINDOWS PARA O MAC
+1. No Windows: menu Arquivo > Salvar cópia dos dados... (gera um arquivo .json).
+2. Passe esse arquivo para o Mac (pen drive, e-mail, nuvem).
+3. No Mac: menu Arquivo > Restaurar dados de uma cópia... e escolha o arquivo.
+(Também dá pelo próprio programa: Personalizar > Dados > cópia de segurança.)
+
+ATALHOS
+Cmd+C / Cmd+V copiam e colam nos campos. Cmd+Q fecha o programa.
